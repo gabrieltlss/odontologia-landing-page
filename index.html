@@ -10,12 +10,94 @@
     <!-- W3CSS + Color Collection    -->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
+    <!-- JS -->
+    <script src="./index.js" defer></script>
 </head>
 
 <body>
-    <header class="w3-container w3-flat-belize-hole">
-        <h1>Teste</h1>
+    <div class="w3-sidebar w3-bar-block w3-flat-belize-hole w3-animate-left w3-hide w3-hide-medium w3-hide-large"
+        id="sidebar">
+        <div class="w3-padding">
+            <img src="./img/tooth-logo.png" alt="Logotipo da página" class="mobile-nav-logo">
+        </div>
+
+        <a href="" class="w3-button w3-bar-item w3-hover-white">Início</a>
+        <a href="" class="w3-button w3-bar-item w3-hover-white">Serviços</a>
+        <a href="" class="w3-button w3-bar-item w3-hover-white">Depoimentos</a>
+        <a href="" class="w3-button w3-bar-item w3-hover-white">Contato</a>
+        <a href="" class="w3-button w3-bar-item w3-hover-white w3-flat-carrot">Agendar</a>
+    </div>
+
+    <header class="w3-flat-belize-hole w3-flex">
+        <div>
+            <img src="./img/tooth-logo.png" alt="Logotipo da página" class="header-logo">
+        </div>
+
+        <div>
+            <nav class="header-nav w3-bar w3-hide-small">
+                <a href="" class="w3-button w3-round w3-hover-white">Início</a>
+                <a href="" class="w3-button w3-round w3-hover-white">Serviços</a>
+                <a href="" class="w3-button w3-round w3-hover-white">Depoimentos</a>
+                <a href="" class="w3-button w3-round w3-hover-white">Contato</a>
+                <a href="" class="w3-button w3-round w3-hover-white w3-flat-carrot">Agendar</a>
+            </nav>
+        </div>
+
+        <div class="w3-hide-medium w3-hide-large w3-hover-orange w3-center" id="toggle-mobile">
+            <img src="./img/menu-icon.svg" alt="" class="menu-icon">
+        </div>
     </header>
+
+    <main>
+        <section class="hero-section w3-flex">
+            <div class="hero-left w3-container w3-flat-belize-hole w3-round-large">
+                <div class="hero-content">
+                    <h3 class="w3-center">Transforme seu sorriso com segurança e tecnologia</h3>
+
+                    <p class="w3-center">Atendimento humanizado, equipamentos modernos e tratamentos
+                        personalizados para
+                        toda a família.
+                    </p>
+
+                    <div class="hero-btn-container w3-flex w3-section">
+                        <a class="w3-button w3-flat-carrot w3-hover-white w3-round">Agendar avaliação</a>
+                        <a class="w3-button w3-flat-carrot w3-hover-white w3-round">Conhecer serviços</a>
+                    </div>
+
+                    <div class="hero-check-list w3-flex w3-section">
+                        <p>✓ Atendimento Humanizado</p>
+                        <p>✓ Equipamentos Modernos</p>
+                        <p>✓ Avaliação Inicial</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-right">
+                <img src="./img/hero-img-2.jpg" alt="" class="hero-img w3-round-large w3-card">
+            </div>
+        </section>
+
+        <section class="info-strip w3-flat-belize-hole w3-section w3-round-large">
+            <div class="strip-items-container w3-flex">
+                <div class="strip-item w3-flex w3-center w3-large">
+                    <img src="./img/star-icon.svg" alt="" class="strip-item-icon">
+                    <span>500+ pacientes atendidos</span>
+                </div>
+                <div class="strip-item w3-flex w3-center w3-large">
+                    <img src="./img/groups-icon.svg" alt="" class="strip-item-icon">
+                    <span>Equipe especializada</span>
+                </div>
+                <div class="strip-item w3-flex w3-center w3-large">
+                    <img src="./img/support-icon.svg" alt="" class="strip-item-icon">
+                    <span>Atendimento personalizado</span>
+                </div>
+                <div class="strip-item w3-flex w3-center w3-large">
+                    <img src="./img/equipment-icon.svg" alt="" class="strip-item-icon">
+                    <span> Equipamentos modernos</span>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
