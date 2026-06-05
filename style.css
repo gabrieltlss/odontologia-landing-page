@@ -42,9 +42,15 @@ main {
 }
 
 .hero-btn-container {
+    margin: 32px 0;
     gap: 16px;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.hero-btn {
+    max-width: 200px;
+    width: 100%;
 }
 
 .hero-check-list {
@@ -58,6 +64,7 @@ main {
 }
 
 .hero-left {
+    padding: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,7 +90,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    row-gap: 32px;
 }
 
 .strip-item {
@@ -95,6 +102,27 @@ main {
 
 .strip-item-icon {
     width: 24px;
+}
+
+/* Cards */
+/* .cards-section {
+    padding: 16px;
+} */
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.card {
+    padding: 16px;
+    max-width: 300px;
+}
+
+.card-icon {
+    padding: 8px;
 }
 
 @media screen and (min-width: 600px) {
