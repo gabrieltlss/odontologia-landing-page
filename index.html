@@ -1,214 +1,225 @@
 <!doctype html>
 <html lang="pt-BR">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Mais Sorriso</title>
 
-      <link rel="shortcut icon" href="img/tooth-logo.png" type="image/x-icon" />
-      <link rel="stylesheet" href="style.css" />
-      <!-- W3CSS + Color Collection    -->
-      <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css" />
-      <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css" />
-      <!-- JS -->
-      <script src="./index.js" defer></script>
-   </head>
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Mais Sorriso</title>
 
-   <body>
-      <div
-         class="w3-sidebar w3-bar-block w3-flat-belize-hole w3-animate-left w3-hide w3-hide-medium w3-hide-large"
-         id="sidebar"
-      >
-         <div class="w3-padding">
-            <img src="./img/tooth-logo.png" alt="Logotipo da página" class="mobile-nav-logo" />
-         </div>
+   <link rel="shortcut icon" href="img/tooth-logo.png" type="image/x-icon" />
+   <link rel="stylesheet" href="style.css" />
+   <!-- W3CSS + Color Collection    -->
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css" />
+   <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css" />
+   <!-- JS -->
+   <script src="./index.js" defer></script>
+</head>
 
-         <a href="" class="w3-button w3-bar-item w3-hover-white">Início</a>
-         <a href="" class="w3-button w3-bar-item w3-hover-white">Serviços</a>
-         <a href="" class="w3-button w3-bar-item w3-hover-white">Depoimentos</a>
-         <a href="" class="w3-button w3-bar-item w3-hover-white">Contato</a>
-         <a href="" class="w3-button w3-bar-item w3-hover-white w3-flat-carrot">Agendar</a>
+<body>
+   <div class="w3-sidebar w3-bar-block w3-flat-belize-hole w3-animate-left w3-hide w3-hide-medium w3-hide-large"
+      id="sidebar">
+      <div class="w3-padding">
+         <img src="./img/tooth-logo.png" alt="Logotipo da página" class="mobile-nav-logo" />
       </div>
 
-      <header class="w3-flat-belize-hole w3-flex">
-         <div>
-            <img src="./img/tooth-logo.png" alt="Logotipo da página" class="header-logo" />
+      <a href="" class="w3-button w3-bar-item w3-hover-white">Início</a>
+      <a href="" class="w3-button w3-bar-item w3-hover-white">Serviços</a>
+      <a href="" class="w3-button w3-bar-item w3-hover-white">Depoimentos</a>
+      <a href="" class="w3-button w3-bar-item w3-hover-white">Contato</a>
+      <a href="" class="w3-button w3-bar-item w3-hover-white w3-flat-carrot">Agendar</a>
+   </div>
+
+   <header class="w3-flat-belize-hole w3-flex">
+      <div>
+         <img src="./img/tooth-logo.png" alt="Logotipo da página" class="header-logo" />
+      </div>
+
+      <div>
+         <nav class="header-nav w3-bar w3-hide-small">
+            <a href="" class="w3-button w3-round w3-hover-white">Início</a>
+            <a href="" class="w3-button w3-round w3-hover-white">Serviços</a>
+            <a href="" class="w3-button w3-round w3-hover-white">Depoimentos</a>
+            <a href="" class="w3-button w3-round w3-hover-white">Contato</a>
+            <a href="" class="w3-button w3-round w3-hover-white w3-flat-carrot">Agendar</a>
+         </nav>
+      </div>
+
+      <div class="w3-hide-medium w3-hide-large w3-hover-orange w3-center" id="toggle-mobile">
+         <img src="./img/menu-icon.svg" alt="" class="menu-icon" />
+      </div>
+   </header>
+
+   <main>
+      <section class="hero-section w3-flex">
+         <div class="hero-left w3-flat-belize-hole w3-round-large">
+            <div class="hero-content">
+               <h3 class="w3-center">Transforme seu sorriso com segurança e tecnologia</h3>
+
+               <p class="w3-center">
+                  Atendimento humanizado, equipamentos modernos e tratamentos personalizados para toda a família.
+               </p>
+
+               <div class="hero-btn-container w3-flex">
+                  <a class="hero-btn w3-button w3-flat-carrot w3-hover-white w3-round">
+                     <img src="./img/whatsapp-icon.png" alt="" />
+                     Agendar avaliação
+                  </a>
+                  <a class="hero-btn w3-button w3-flat-carrot w3-hover-white w3-round">Conhecer serviços</a>
+               </div>
+
+               <div class="hero-check-list w3-flex">
+                  <p>✓ Atendimento Humanizado</p>
+                  <p>✓ Equipamentos Modernos</p>
+                  <p>✓ Avaliação Inicial</p>
+               </div>
+            </div>
          </div>
 
-         <div>
-            <nav class="header-nav w3-bar w3-hide-small">
-               <a href="" class="w3-button w3-round w3-hover-white">Início</a>
-               <a href="" class="w3-button w3-round w3-hover-white">Serviços</a>
-               <a href="" class="w3-button w3-round w3-hover-white">Depoimentos</a>
-               <a href="" class="w3-button w3-round w3-hover-white">Contato</a>
-               <a href="" class="w3-button w3-round w3-hover-white w3-flat-carrot">Agendar</a>
-            </nav>
+         <div class="hero-right">
+            <img src="./img/hero-img-2.jpg" alt="" class="hero-img w3-round-large w3-card" />
+         </div>
+      </section>
+
+      <section class="info-strip w3-flat-belize-hole w3-section w3-round-large">
+         <div class="strip-items-container w3-flex">
+            <div class="strip-item w3-flex w3-center w3-large">
+               <img src="./img/star-icon.svg" alt="" class="strip-item-icon" />
+               <span>500+ pacientes atendidos</span>
+            </div>
+            <div class="strip-item w3-flex w3-center w3-large">
+               <img src="./img/groups-icon.svg" alt="" class="strip-item-icon" />
+               <span>Equipe especializada</span>
+            </div>
+            <div class="strip-item w3-flex w3-center w3-large">
+               <img src="./img/support-icon.svg" alt="" class="strip-item-icon" />
+               <span>Atendimento personalizado</span>
+            </div>
+            <div class="strip-item w3-flex w3-center w3-large">
+               <img src="./img/equipment-icon.svg" alt="" class="strip-item-icon" />
+               <span> Equipamentos modernos</span>
+            </div>
+         </div>
+      </section>
+
+      <section class="cards-section w3-section">
+         <div class="card w3-center w3-white w3-card w3-round-large">
+            <div class="card-header">
+               <img src="./img/tooth-icon.png" alt="" class="card-icon w3-circle w3-flat-belize-hole" />
+               <h3>Limpeza Dental</h3>
+            </div>
+
+            <h4>Prevenção e saúde bucal</h4>
+
+            <p class="w3-justify">
+               Remova placas bacterianas, tártaros e manchas superficiais com um procedimento seguro e
+               confortável, ajudando a manter seus dentes e gengivas saudáveis.
+            </p>
+         </div>
+         <div class="card w3-center w3-white w3-card w3-round-large">
+            <div class="card-header">
+               <img src="./img/toothbrush-icon.png" alt="" class="card-icon w3-circle w3-flat-carrot" />
+               <h3>Clareamento Dental</h3>
+            </div>
+
+            <h4>Um sorriso mais branco e radiante</h4>
+
+            <p class="w3-justify">
+               Tratamentos modernos para clarear os dentes de forma eficaz, devolvendo brilho e confiança ao seu
+               sorriso com acompanhamento profissional.
+            </p>
+         </div>
+         <div class="card w3-center w3-white w3-card w3-round-large">
+            <div class="card-header">
+               <img src="./img/tooth-icon.png" alt="" class="card-icon w3-circle w3-flat-belize-hole" />
+               <h3>Implantes Dentários</h3>
+            </div>
+
+            <h4>Recupere a função e a estética do sorriso</h4>
+
+            <p class="w3-justify">
+               Solução segura para substituir dentes perdidos, proporcionando mais conforto, estabilidade e
+               naturalidade ao mastigar e sorrir.
+            </p>
+         </div>
+         <div class="card w3-center w3-white w3-card w3-round-large">
+            <div class="card-header">
+               <img src="./img/toothbrush-icon.png" alt="" class="card-icon w3-circle w3-flat-carrot" />
+               <h3>Ortodontia</h3>
+            </div>
+
+            <h4>Alinhamento e harmonia para o seu sorriso</h4>
+
+            <p class="w3-justify">
+               Correção do posicionamento dos dentes e da mordida por meio de tratamentos personalizados,
+               promovendo estética e saúde bucal a longo prazo.
+            </p>
+         </div>
+      </section>
+
+      <section class="about-section w3-flex">
+         <div class="about-img-container">
+            <img src="./img/about-img.jpg" alt="" class="about-img w3-round-large w3-card" />
          </div>
 
-         <div class="w3-hide-medium w3-hide-large w3-hover-orange w3-center" id="toggle-mobile">
-            <img src="./img/menu-icon.svg" alt="" class="menu-icon" />
+         <div class="about-content-container w3-flat-belize-hole w3-round-large">
+            <div class="content">
+               <div class="w3-center">
+                  <img src="./img/doctor-icon.png" alt="" class="about-icon w3-circle w3-flat-carrot" />
+                  <h3>Quem somos?</h3>
+               </div>
+
+               <div class="w3-justify">
+                  <p>
+                     Na Sorriso Perfeito Odontologia, acreditamos que um sorriso saudável é essencial para o
+                     bem-estar, a autoestima e a qualidade de vida. Por isso, oferecemos tratamentos odontológicos
+                     personalizados, realizados com atenção aos detalhes e foco nas necessidades de cada paciente.
+                  </p>
+
+                  <p>
+                     Contamos com uma equipe qualificada e utilizamos tecnologias modernas para proporcionar
+                     diagnósticos precisos, procedimentos seguros e resultados duradouros. Nosso compromisso é unir
+                     qualidade técnica, conforto e atendimento humanizado em cada etapa do seu tratamento.
+                  </p>
+
+                  <p>
+                     Seja para cuidados preventivos, procedimentos estéticos ou tratamentos mais complexos, estamos
+                     preparados para ajudá-lo a conquistar um sorriso mais saudável, bonito e confiante em um
+                     ambiente acolhedor e profissional.
+                  </p>
+               </div>
+            </div>
          </div>
-      </header>
+      </section>
 
-      <main>
-         <section class="hero-section w3-flex">
-            <div class="hero-left w3-flat-belize-hole w3-round-large">
-               <div class="hero-content">
-                  <h3 class="w3-center">Transforme seu sorriso com segurança e tecnologia</h3>
-
-                  <p class="w3-center">
-                     Atendimento humanizado, equipamentos modernos e tratamentos personalizados para toda a família.
-                  </p>
-
-                  <div class="hero-btn-container w3-flex">
-                     <a class="hero-btn w3-button w3-flat-carrot w3-hover-white w3-round">
-                        <img src="./img/whatsapp-icon.png" alt="" />
-                        Agendar avaliação
-                     </a>
-                     <a class="hero-btn w3-button w3-flat-carrot w3-hover-white w3-round">Conhecer serviços</a>
-                  </div>
-
-                  <div class="hero-check-list w3-flex">
-                     <p>✓ Atendimento Humanizado</p>
-                     <p>✓ Equipamentos Modernos</p>
-                     <p>✓ Avaliação Inicial</p>
-                  </div>
-               </div>
+      <section class="carousel-section w3-grid">
+         <div class="carousel-content-container w3-flat-carrot w3-round-large">
+            <div class="carousel-content w3-center">
+               <img src="./img/tooth-icon.png" alt="" class="card-icon w3-circle w3-flat-belize-hole" />
+               <h2 class="w3-center">Resultados que falam por si só</h2>
             </div>
+         </div>
 
-            <div class="hero-right">
-               <img src="./img/hero-img-2.jpg" alt="" class="hero-img w3-round-large w3-card" />
-            </div>
-         </section>
+         <div class="carousel-container">
+            <img src="./img/smiling-woman.jpg" alt="" class="carousel-img w3-round-large w3-card" id="carousel-1" />
+            <img src="./img/smiling-person.jpg" alt="" class="carousel-img w3-round-large w3-card w3-hide"
+               id="carousel-2" />
+            <img src="./img/tooth-braces.jpg" alt="" class="carousel-img w3-round-large w3-card w3-hide"
+               id="carousel-3" />
+         </div>
 
-         <section class="info-strip w3-flat-belize-hole w3-section w3-round-large">
-            <div class="strip-items-container w3-flex">
-               <div class="strip-item w3-flex w3-center w3-large">
-                  <img src="./img/star-icon.svg" alt="" class="strip-item-icon" />
-                  <span>500+ pacientes atendidos</span>
-               </div>
-               <div class="strip-item w3-flex w3-center w3-large">
-                  <img src="./img/groups-icon.svg" alt="" class="strip-item-icon" />
-                  <span>Equipe especializada</span>
-               </div>
-               <div class="strip-item w3-flex w3-center w3-large">
-                  <img src="./img/support-icon.svg" alt="" class="strip-item-icon" />
-                  <span>Atendimento personalizado</span>
-               </div>
-               <div class="strip-item w3-flex w3-center w3-large">
-                  <img src="./img/equipment-icon.svg" alt="" class="strip-item-icon" />
-                  <span> Equipamentos modernos</span>
-               </div>
-            </div>
-         </section>
+         <div class="carousel-preview w3-grid w3-round-large w3-flat-carrot">
+            <img src="./img/smiling-woman-thumb.webp" alt=""
+               class="preview-img w3-white w3-round-large w3-hover-shadow w3-grayscale-off"
+               onclick="displayCarouselImg(1)" id="preview-1" />
+            <img src="./img/smiling-person-thumb.webp" alt=""
+               class="preview-img w3-white w3-round-large w3-hover-shadow w3-grayscale-max w3-grayscale-off"
+               onclick="displayCarouselImg(2)" id="preview-2" />
+            <img src="./img/tooth-braces-thumb.webp" alt=""
+               class="preview-img w3-white w3-round-large w3-hover-shadow w3-grayscale-max w3-grayscale-off"
+               onclick="displayCarouselImg(3)" id="preview-3" />
+         </div>
+      </section>
+   </main>
+</body>
 
-         <section class="cards-section w3-section">
-            <div class="cards-container">
-               <div class="card w3-center w3-white">
-                  <div class="card-header">
-                     <img src="./img/tooth-icon.png" alt="" class="card-icon w3-circle w3-flat-belize-hole" />
-                     <h3>Limpeza Dental</h3>
-                  </div>
-
-                  <h4>Prevenção e saúde bucal</h4>
-
-                  <p class="w3-justify">
-                     Remova placas bacterianas, tártaros e manchas superficiais com um procedimento seguro e
-                     confortável, ajudando a manter seus dentes e gengivas saudáveis.
-                  </p>
-               </div>
-               <div class="card w3-center w3-white">
-                  <div class="card-header">
-                     <img src="./img/toothbrush-icon.png" alt="" class="card-icon w3-circle w3-flat-carrot" />
-                     <h3>Clareamento Dental</h3>
-                  </div>
-
-                  <h4>Um sorriso mais branco e radiante</h4>
-
-                  <p class="w3-justify">
-                     Tratamentos modernos para clarear os dentes de forma eficaz, devolvendo brilho e confiança ao seu
-                     sorriso com acompanhamento profissional.
-                  </p>
-               </div>
-               <div class="card w3-center w3-white">
-                  <div class="card-header">
-                     <img src="./img/tooth-icon.png" alt="" class="card-icon w3-circle w3-flat-belize-hole" />
-                     <h3>Implantes Dentários</h3>
-                  </div>
-
-                  <h4>Recupere a função e a estética do sorriso</h4>
-
-                  <p class="w3-justify">
-                     Solução segura para substituir dentes perdidos, proporcionando mais conforto, estabilidade e
-                     naturalidade ao mastigar e sorrir.
-                  </p>
-               </div>
-               <div class="card w3-center w3-white">
-                  <div class="card-header">
-                     <img src="./img/toothbrush-icon.png" alt="" class="card-icon w3-circle w3-flat-carrot" />
-                     <h3>Ortodontia</h3>
-                  </div>
-
-                  <h4>Alinhamento e harmonia para o seu sorriso</h4>
-
-                  <p class="w3-justify">
-                     Correção do posicionamento dos dentes e da mordida por meio de tratamentos personalizados,
-                     promovendo estética e saúde bucal a longo prazo.
-                  </p>
-               </div>
-            </div>
-         </section>
-
-         <section class="about-section w3-section w3-flex">
-            <div class="about-img-container">
-               <img src="./img/about-img.jpg" alt="" class="about-img w3-round-large" />
-            </div>
-
-            <div class="about-content-container w3-flat-belize-hole w3-round-large">
-               <div class="content">
-                  <div class="w3-center">
-                     <img src="./img/doctor-icon.png" alt="" class="about-icon w3-circle w3-flat-carrot" />
-                     <h3>Quem somos?</h3>
-                  </div>
-
-                  <div class="w3-justify">
-                     <p>
-                        Na Sorriso Perfeito Odontologia, acreditamos que um sorriso saudável é essencial para o
-                        bem-estar, a autoestima e a qualidade de vida. Por isso, oferecemos tratamentos odontológicos
-                        personalizados, realizados com atenção aos detalhes e foco nas necessidades de cada paciente.
-                     </p>
-
-                     <p>
-                        Contamos com uma equipe qualificada e utilizamos tecnologias modernas para proporcionar
-                        diagnósticos precisos, procedimentos seguros e resultados duradouros. Nosso compromisso é unir
-                        qualidade técnica, conforto e atendimento humanizado em cada etapa do seu tratamento.
-                     </p>
-
-                     <p>
-                        Seja para cuidados preventivos, procedimentos estéticos ou tratamentos mais complexos, estamos
-                        preparados para ajudá-lo a conquistar um sorriso mais saudável, bonito e confiante em um
-                        ambiente acolhedor e profissional.
-                     </p>
-                  </div>
-               </div>
-            </div>
-         </section>
-
-         <section class="carousel-section">
-            <div class="carousel-content"></div>
-
-            <div class="carousel-container">
-               <div class="carousel-item">
-                  <img src="./img/clean-teeth.jpg" alt="" class="carousel-img" />
-               </div>
-               <div class="carousel-item">
-                  <img src="./img/clean-teeth-2.jpg" alt="" class="carousel-img" />
-               </div>
-               <div class="carousel-item">
-                  <img src="./img/teeth-repair.jpg" alt="" class="carousel-img" />
-               </div>
-            </div>
-         </section>
-      </main>
-   </body>
 </html>
