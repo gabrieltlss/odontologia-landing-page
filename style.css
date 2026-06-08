@@ -115,7 +115,9 @@ main {
 }
 
 .card-icon,
-.about-icon {
+.about-icon,
+.rating-icon,
+.rating-icon {
    width: 50px;
    padding: 8px;
 }
@@ -176,6 +178,20 @@ main {
    cursor: pointer;
 }
 
+/* Rating section */
+.rating-section {
+   margin: 32px 0;
+}
+
+.rating-cards-container {
+   margin: 32px 0;
+   gap: 16px;
+}
+
+.rating-card {
+   padding: 16px;
+}
+
 @media screen and (min-width: 600px) {
    .hero-section {
       flex-direction: row;
@@ -225,14 +241,18 @@ main {
    .preview-img {
       height: 200px;
    }
-}
 
-.w3-grayscale-off:hover {
-   filter: grayscale(1%);
+   .rating-cards-container {
+      grid-template-columns: repeat(3, 1fr);
+   }
 }
 
 @media screen and (min-width: 1200px) {
    .cards-section {
       grid-template-columns: repeat(4, 1fr);
    }
+}
+
+.w3-grayscale-off:hover {
+   filter: grayscale(1%);
 }
