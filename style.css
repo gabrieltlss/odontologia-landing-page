@@ -1,4 +1,6 @@
 header {
+   top: 0;
+   z-index: 1;
    position: sticky;
    justify-content: space-between;
    align-items: center;
@@ -106,6 +108,7 @@ main {
 /* Cards */
 
 .cards-section {
+   margin: 32px 0;
    display: grid;
    gap: 16px;
 }
@@ -117,8 +120,9 @@ main {
 .card-icon,
 .about-icon,
 .rating-icon,
-.rating-icon {
-   width: 50px;
+.rating-icon,
+.contact-icon {
+   width: 48px;
    padding: 8px;
 }
 
@@ -190,6 +194,21 @@ main {
 
 .rating-card {
    padding: 16px;
+}
+
+/* Contact */
+.contact-header {
+   padding: 16px;
+}
+
+.form-container {
+   margin: 32px 0;
+}
+
+form {
+   margin: auto;
+   max-width: 650px;
+   width: 100%;
 }
 
 @media screen and (min-width: 600px) {

@@ -16,19 +16,6 @@
 </head>
 
 <body>
-   <div class="w3-sidebar w3-bar-block w3-flat-belize-hole w3-animate-left w3-hide w3-hide-medium w3-hide-large"
-      id="sidebar">
-      <div class="w3-padding">
-         <img src="./img/tooth-logo.png" alt="Logotipo da página" class="mobile-nav-logo" />
-      </div>
-
-      <a href="" class="w3-button w3-bar-item w3-hover-white">Início</a>
-      <a href="" class="w3-button w3-bar-item w3-hover-white">Serviços</a>
-      <a href="" class="w3-button w3-bar-item w3-hover-white">Depoimentos</a>
-      <a href="" class="w3-button w3-bar-item w3-hover-white">Contato</a>
-      <a href="" class="w3-button w3-bar-item w3-hover-white w3-flat-carrot">Agendar</a>
-   </div>
-
    <header class="w3-flat-belize-hole w3-flex">
       <div>
          <img src="./img/tooth-logo.png" alt="Logotipo da página" class="header-logo" />
@@ -48,6 +35,18 @@
          <img src="./img/menu-icon.svg" alt="" class="menu-icon" />
       </div>
    </header>
+   <div class="w3-sidebar w3-bar-block w3-flat-belize-hole w3-animate-left w3-hide w3-hide-medium w3-hide-large"
+      id="sidebar">
+      <!-- <div class="w3-padding">
+         <img src="./img/tooth-logo.png" alt="Logotipo da página" class="mobile-nav-logo" />
+      </div> -->
+
+      <a href="" class="w3-button w3-bar-item w3-hover-white">Início</a>
+      <a href="" class="w3-button w3-bar-item w3-hover-white">Serviços</a>
+      <a href="" class="w3-button w3-bar-item w3-hover-white">Depoimentos</a>
+      <a href="" class="w3-button w3-bar-item w3-hover-white">Contato</a>
+      <a href="" class="w3-button w3-bar-item w3-hover-white w3-flat-carrot">Agendar</a>
+   </div>
 
    <main>
       <section class="hero-section w3-flex">
@@ -101,7 +100,7 @@
          </div>
       </section>
 
-      <section class="cards-section w3-section">
+      <section class="cards-section">
          <div class="card w3-center w3-white w3-card w3-round-large">
             <div class="card-header">
                <img src="./img/tooth-icon.png" alt="" class="card-icon w3-circle w3-flat-belize-hole" />
@@ -195,7 +194,7 @@
          <div class="carousel-content-container w3-flat-carrot w3-round-large">
             <div class="carousel-content w3-center">
                <img src="./img/tooth-icon.png" alt="" class="card-icon w3-circle w3-flat-belize-hole" />
-               <h3 class="w3-center">Resultados que falam por si só</h3>
+               <h3 class="w3-center">Resultados que falam por si</h3>
             </div>
          </div>
 
@@ -266,6 +265,53 @@
                   dedicação."
                </p>
             </div>
+         </div>
+      </section>
+
+      <section class="contact-section">
+         <div class="contact-header w3-flat-carrot w3-round-large w3-center">
+            <img src="./img/social-leaderboard-icon.svg" alt="" class="contact-icon w3-flat-belize-hole w3-circle">
+            <h3>Pronto para conquistar o sorriso que você merece?</h3>
+         </div>
+
+         <div class="form-container">
+            <form action="" class="contact-form">
+               <div class="w3-section">
+                  <label for="nome">Nome:</label>
+                  <input type="text" name="nome" id="nome" class="w3-input" required>
+               </div>
+
+               <div class="w3-section">
+                  <label for="telefone">Número:</label>
+                  <input type="tel" name="telefone" id="telefone" class="w3-input" pattern="[0-9]{2} [0-9]{5}-[0-9]{4}"
+                     required>
+               </div>
+
+               <div class="w3-section">
+                  <label for="email">Email:</label>
+                  <input type="email" name="email" id="email" class="w3-input">
+               </div>
+
+               <div class="w3-section">
+                  <p>Procedimento desejado:</p>
+
+                  <input type="radio" name="procedimento" value="limpeza" id="limpeza" class="w3-radio" checked>
+                  <label for="limpeza">Limpeza</label>
+                  <br>
+                  <input type="radio" name="procedimento" value="clareamento" id="clareamento" class="w3-radio">
+                  <label for="clareamento">Clareamento</label>
+                  <br>
+                  <input type="radio" name="procedimento" value="implante" id="implante" class="w3-radio">
+                  <label for="implante">Implante dentário</label>
+                  <br>
+                  <input type="radio" name="procedimento" value="ortodontia" id="ortodontia" class="w3-radio">
+                  <label for="ortodontia">Ortodontia</label>
+               </div>
+
+               <div class="w3-section">
+                  <button type="submit" class="w3-button w3-flat-carrot w3-round">Teste</button>
+               </div>
+            </form>
          </div>
       </section>
    </main>
