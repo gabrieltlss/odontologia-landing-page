@@ -228,7 +228,7 @@ form {
 .faq-container {
    max-width: 650px;
    width: 100%;
-   margin: 16px auto;
+   margin: 32px auto;
 }
 
 .accordion-header {
@@ -253,6 +253,54 @@ form {
    width: 20px;
 }
 
+/* Footer */
+footer {
+   box-shadow: 0 0 5px black;
+   padding: 16px;
+}
+
+.footer-header {
+   margin-bottom: 32px;
+   gap: 16px;
+   align-items: center;
+}
+
+.footer-logo {
+   width: 48px;
+}
+
+.footer-links-container {
+   margin: 0 0 16px;
+   padding: 0;
+   list-style-type: none;
+}
+
+.footer-links-container li {
+   margin: 4px 0;
+}
+
+.footer-link {
+   text-decoration: none;
+   width: 120px;
+}
+
+.footer-link:hover {
+   text-decoration: underline;
+}
+
+.address-header {
+   gap: 4px;
+}
+
+.address-content {
+   padding: 8px;
+}
+
+.address-map {
+   width: 100%;
+   height: 120px;
+}
+
 @media screen and (min-width: 600px) {
    .hero-section {
       flex-direction: row;
@@ -265,7 +313,7 @@ form {
    }
 
    .strip-items-container {
-      padding: 30px 0;
+      padding: 30px;
       flex-direction: row;
       justify-content: space-evenly;
       column-gap: 16px;
@@ -285,6 +333,24 @@ form {
 
    .about-img-container,
    .about-content-container {
+      width: 50%;
+   }
+
+   .footer-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+      gap: 32px;
+   }
+
+   .address {
+      display: flex;
+      flex-direction: row;
+      gap: 4px;
+   }
+
+   .address-map,
+   .address-content {
       width: 50%;
    }
 }
