@@ -15,3 +15,26 @@ function displayCarouselImg(number) {
     previews.forEach(elem => elem.classList.add("w3-grayscale-max"));
     document.getElementById(`preview-${number}`).classList.remove("w3-grayscale-max");
 }
+
+// Accordion button
+function openAccordion(number) {
+    const openBtn = document.getElementById(`open-btn-${number}`);
+    openBtn.classList.add("w3-hide");
+
+    const accordion = document.getElementById(`accordion-content-${number}`);
+    accordion.classList.remove("w3-hide");
+
+    const cleseBtn = document.getElementById(`close-btn-${number}`);
+    cleseBtn.classList.remove("w3-hide");
+}
+
+function closeAccordion(number) {
+    const cleseBtn = document.getElementById(`close-btn-${number}`);
+    cleseBtn.classList.add("w3-hide");
+
+    const accordion = document.getElementById(`accordion-content-${number}`);
+    accordion.classList.add("w3-hide");
+
+    const openBtn = document.getElementById(`open-btn-${number}`);
+    openBtn.classList.remove("w3-hide");
+}

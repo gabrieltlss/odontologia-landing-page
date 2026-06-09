@@ -19,6 +19,10 @@ header {
    width: 60px;
 }
 
+#toggle-mobile:hover {
+   cursor: pointer;
+}
+
 .mobile-nav-logo {
    width: 60px;
 }
@@ -121,8 +125,9 @@ main {
 .about-icon,
 .rating-icon,
 .rating-icon,
-.contact-icon {
-   width: 48px;
+.contact-icon,
+.faq-icon {
+   width: 50px;
    padding: 8px;
 }
 
@@ -209,6 +214,43 @@ form {
    margin: auto;
    max-width: 650px;
    width: 100%;
+}
+
+.btn-form {
+   margin: 32px 0;
+}
+
+/* FAQ */
+.faq-header {
+   padding: 16px;
+}
+
+.faq-container {
+   max-width: 650px;
+   width: 100%;
+   margin: 16px auto;
+}
+
+.accordion-header {
+   padding: 0 4px;
+   display: grid;
+   gap: 16px;
+   grid-template-columns: auto 36px;
+   align-items: center;
+}
+
+.accordion-btn {
+   width: auto;
+   padding: 8px;
+   border: none;
+}
+
+.accordion-btn:hover {
+   cursor: pointer;
+}
+
+.accordion-icon {
+   width: 20px;
 }
 
 @media screen and (min-width: 600px) {

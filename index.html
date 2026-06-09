@@ -37,9 +37,6 @@
    </header>
    <div class="w3-sidebar w3-bar-block w3-flat-belize-hole w3-animate-left w3-hide w3-hide-medium w3-hide-large"
       id="sidebar">
-      <!-- <div class="w3-padding">
-         <img src="./img/tooth-logo.png" alt="Logotipo da página" class="mobile-nav-logo" />
-      </div> -->
 
       <a href="" class="w3-button w3-bar-item w3-hover-white">Início</a>
       <a href="" class="w3-button w3-bar-item w3-hover-white">Serviços</a>
@@ -107,7 +104,7 @@
                <h3>Limpeza Dental</h3>
             </div>
 
-            <h4>Prevenção e saúde bucal</h4>
+            <h5>Prevenção e saúde bucal</h5>
 
             <p class="w3-justify">
                Remova placas bacterianas, tártaros e manchas superficiais com um procedimento seguro e
@@ -120,7 +117,7 @@
                <h3>Clareamento Dental</h3>
             </div>
 
-            <h4>Um sorriso mais branco e radiante</h4>
+            <h5>Um sorriso mais branco e radiante</h5>
 
             <p class="w3-justify">
                Tratamentos modernos para clarear os dentes de forma eficaz, devolvendo brilho e confiança ao seu
@@ -133,7 +130,7 @@
                <h3>Implantes Dentários</h3>
             </div>
 
-            <h4>Recupere a função e a estética do sorriso</h4>
+            <h5>Recupere a função e a estética do sorriso</h5>
 
             <p class="w3-justify">
                Solução segura para substituir dentes perdidos, proporcionando mais conforto, estabilidade e
@@ -146,7 +143,7 @@
                <h3>Ortodontia</h3>
             </div>
 
-            <h4>Alinhamento e harmonia para o seu sorriso</h4>
+            <h5>Alinhamento e harmonia para o seu sorriso</h5>
 
             <p class="w3-justify">
                Correção do posicionamento dos dentes e da mordida por meio de tratamentos personalizados,
@@ -222,7 +219,7 @@
       <section class="rating-section">
          <div class="rating-title w3-center">
             <img src="./img/diamond-icon.svg" alt="" class="rating-icon w3-flat-belize-hole w3-circle">
-            <h3>Avaliações de nossos clientes</h3>
+            <h3>Avaliações dos nossos clientes</h3>
          </div>
 
          <div class="rating-cards-container w3-grid">
@@ -308,10 +305,113 @@
                   <label for="ortodontia">Ortodontia</label>
                </div>
 
-               <div class="w3-section">
-                  <button type="submit" class="w3-button w3-flat-carrot w3-round">Teste</button>
+               <div class="btn-form">
+                  <button type="submit" class="w3-button w3-flat-carrot w3-round">Enviar</button>
                </div>
             </form>
+         </div>
+      </section>
+
+      <section class="faq-section">
+         <div class="faq-header w3-flat-belize-hole w3-round-large w3-center">
+            <img src="./img/faq-icon.svg" alt="" class="faq-icon w3-flat-carrot w3-circle">
+            <h3>Perguntas frequentes (FAQ)</h3>
+         </div>
+
+         <div class="faq-container w3-container">
+            <div>
+               <div class="accordion-header w3-border-bottom">
+                  <p>O clareamento dói?</p>
+                  <button class="accordion-btn w3-flat-belize-hole w3-circle w3-center w3-hover-shadow" id="open-btn-1"
+                     onclick="openAccordion(1)">
+                     <img src="./img/arrow-down-icon.svg" alt="" class="accordion-icon">
+                  </button>
+
+                  <button class="accordion-btn w3-flat-carrot w3-circle w3-center w3-hide w3-hover-shadow"
+                     id="close-btn-1" onclick="closeAccordion(1)">
+                     <img src="./img/arrow-up-icon.svg" alt="" class="accordion-icon">
+                  </button>
+               </div>
+
+               <div class="w3-container w3-animate-opacity w3-hide" id="accordion-content-1">
+                  <p>
+                     O clareamento dental é um procedimento seguro e, na maioria dos casos, não causa dor. Alguns
+                     pacientes podem apresentar sensibilidade temporária durante ou após o tratamento, mas esse
+                     desconforto costuma ser leve e passageiro. Nossa equipe acompanha todo o processo para garantir o
+                     máximo de conforto.
+                  </p>
+               </div>
+            </div>
+
+            <div>
+               <div class="accordion-header w3-border-bottom">
+                  <p>Quanto tempo dura um implante?</p>
+                  <button class="accordion-btn w3-flat-belize-hole w3-circle w3-center w3-hover-shadow" id="open-btn-2"
+                     onclick="openAccordion(2)">
+                     <img src="./img/arrow-down-icon.svg" alt="" class="accordion-icon">
+                  </button>
+
+                  <button class="accordion-btn w3-flat-carrot w3-circle w3-center w3-hover-shadow w3-hide"
+                     id="close-btn-2" onclick="closeAccordion(2)">
+                     <img src="./img/arrow-up-icon.svg" alt="" class="accordion-icon">
+                  </button>
+               </div>
+
+               <div class="w3-container w3-animate-opacity w3-hide" id="accordion-content-2">
+                  <p>
+                     Com os cuidados adequados, um implante dentário pode durar muitos anos, podendo inclusive
+                     acompanhar o paciente por toda a vida. A durabilidade depende de fatores como higiene bucal,
+                     hábitos diários e acompanhamento odontológico regular.
+                  </p>
+               </div>
+            </div>
+
+            <div>
+               <div class="accordion-header w3-border-bottom">
+                  <p>Como funciona a avaliação?</p>
+                  <button class="accordion-btn w3-flat-belize-hole w3-circle w3-center w3-hover-shadow" id="open-btn-3"
+                     onclick="openAccordion(3)">
+                     <img src="./img/arrow-down-icon.svg" alt="" class="accordion-icon">
+                  </button>
+
+                  <button class="accordion-btn w3-flat-carrot w3-circle w3-center w3-hover-shadow w3-hide"
+                     id="close-btn-3" onclick="closeAccordion(3)">
+                     <img src="./img/arrow-up-icon.svg" alt="" class="accordion-icon">
+                  </button>
+               </div>
+
+               <div class="w3-container w3-animate-opacity w3-hide" id="accordion-content-3">
+                  <p>
+                     Na consulta de avaliação, o dentista realiza uma análise completa da saúde bucal, identifica as
+                     necessidades do paciente e esclarece dúvidas sobre possíveis tratamentos. Após essa etapa, é
+                     apresentado um plano personalizado com as melhores opções para cada caso.
+                  </p>
+               </div>
+            </div>
+
+            <div>
+               <div class="accordion-header w3-border-bottom">
+                  <p>Vocês atendem urgências?</p>
+                  <button class="accordion-btn w3-flat-belize-hole w3-circle w3-center w3-hover-shadow" id="open-btn-4"
+                     onclick="openAccordion(4)">
+                     <img src="./img/arrow-down-icon.svg" alt="" class="accordion-icon">
+                  </button>
+
+                  <button class="accordion-btn w3-flat-carrot w3-circle w3-center w3-hover-shadow w3-hide"
+                     id="close-btn-4" onclick="closeAccordion(4)">
+                     <img src="./img/arrow-up-icon.svg" alt="" class="accordion-icon">
+                  </button>
+               </div>
+
+               <div class="w3-container w3-animate-opacity w3-hide" id="accordion-content-4">
+                  <p>
+                     Sim. Estamos preparados para atender situações de urgência odontológica, como dores intensas,
+                     fraturas dentárias, queda de restaurações e outros problemas que exijam atenção imediata.
+                     Recomendamos entrar em contato o quanto antes para que possamos orientá-lo e realizar o atendimento
+                     necessário.
+                  </p>
+               </div>
+            </div>
          </div>
       </section>
    </main>
