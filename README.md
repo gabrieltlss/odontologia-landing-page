@@ -1,7 +1,8 @@
 # Landing Pape - Clínica de Odontologia
 
 Landing page responsiva e com design moderno para clínica de odontologia.
-Viste-o: [Sorriso Perfeito](https://odontologia.gabrieltlss.com.br)
+
+Viste-a: [Sorriso Perfeito](https://odontologia.gabrieltlss.com.br)
 
 ## Funcionalidade principais
 
