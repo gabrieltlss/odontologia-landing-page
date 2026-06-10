@@ -1,524 +1,480 @@
 <!doctype html>
 <html lang="pt-BR">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Mais Sorriso</title>
 
-      <link rel="shortcut icon" href="img/tooth-logo.png" type="image/x-icon" />
-      <link rel="stylesheet" href="style.css" />
-      <!-- W3CSS + Color Collection    -->
-      <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css" />
-      <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css" />
-      <!-- JS -->
-      <script src="./index.js" defer></script>
-   </head>
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Mais Sorriso</title>
 
-   <body>
-      <header class="w3-flat-belize-hole w3-flex">
-         <div>
-            <img src="./img/tooth-logo.png" alt="Logotipo da página" class="header-logo" />
-         </div>
+   <link rel="shortcut icon" href="img/tooth-logo.png" type="image/x-icon" />
+   <link rel="stylesheet" href="style.css" />
+   <!-- W3CSS + Color Collection    -->
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css" />
+   <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css" />
+   <!-- JS -->
+   <script src="./index.js" defer></script>
+</head>
 
-         <div>
-            <nav class="header-nav w3-bar w3-hide-small">
-               <a href="" class="w3-button w3-round w3-hover-white">Início</a>
-               <a href="" class="w3-button w3-round w3-hover-white">Serviços</a>
-               <a href="" class="w3-button w3-round w3-hover-white">Depoimentos</a>
-               <a href="" class="w3-button w3-round w3-hover-white">Contato</a>
-               <a href="" class="w3-button w3-round w3-hover-white w3-flat-carrot">Agendar</a>
-            </nav>
-         </div>
-
-         <div class="w3-hide-medium w3-hide-large w3-hover-orange w3-center" id="toggle-mobile">
-            <img src="./img/menu-icon.svg" alt="" class="menu-icon" />
-         </div>
-      </header>
-      <div
-         class="w3-sidebar w3-bar-block w3-flat-belize-hole w3-animate-left w3-hide w3-hide-medium w3-hide-large"
-         id="sidebar"
-      >
-         <a href="" class="w3-button w3-bar-item w3-hover-white">Início</a>
-         <a href="" class="w3-button w3-bar-item w3-hover-white">Serviços</a>
-         <a href="" class="w3-button w3-bar-item w3-hover-white">Depoimentos</a>
-         <a href="" class="w3-button w3-bar-item w3-hover-white">Contato</a>
-         <a href="" class="w3-button w3-bar-item w3-hover-white w3-flat-carrot">Agendar</a>
+<body>
+   <header class="w3-flat-belize-hole w3-flex">
+      <div>
+         <img src="./img/tooth-logo.png" alt="Logotipo da página" class="header-logo" />
       </div>
 
-      <main>
-         <section class="hero-section w3-flex">
-            <div class="hero-left w3-flat-belize-hole w3-round-large">
-               <div class="hero-content">
-                  <h3 class="w3-center">Transforme seu sorriso com segurança e tecnologia</h3>
+      <div>
+         <nav class="header-nav w3-bar w3-hide-small">
+            <a href="" class="w3-button w3-round w3-hover-white">Início</a>
+            <a href="#services" class="w3-button w3-round w3-hover-white">Serviços</a>
+            <a href="#rating" class="w3-button w3-round w3-hover-white">Depoimentos</a>
+            <a href="#contact-section" class="w3-button w3-round w3-hover-white">Contato</a>
+            <a href="" class="w3-button w3-round w3-hover-white w3-flat-carrot">Agendar</a>
+         </nav>
+      </div>
 
-                  <p class="w3-center">
-                     Atendimento humanizado, equipamentos modernos e tratamentos personalizados para toda a família.
-                  </p>
+      <div class="w3-hide-medium w3-hide-large w3-hover-orange w3-center" id="toggle-mobile">
+         <img src="./img/icons/menu-icon.svg" alt="ícone de menu" class="menu-icon" />
+      </div>
+   </header>
+   <div class="w3-sidebar w3-bar-block w3-flat-belize-hole w3-animate-left w3-hide w3-hide-medium w3-hide-large"
+      id="sidebar">
+      <a href="" class="w3-button w3-bar-item w3-hover-white">Início</a>
+      <a href="#services" class="w3-button w3-bar-item w3-hover-white">Serviços</a>
+      <a href="#rating" class="w3-button w3-bar-item w3-hover-white">Depoimentos</a>
+      <a href="#contact-section" class="w3-button w3-bar-item w3-hover-white">Contato</a>
+      <a href="" class="w3-button w3-bar-item w3-hover-white w3-flat-carrot">Agendar</a>
+   </div>
 
-                  <div class="hero-btn-container w3-flex">
-                     <a class="hero-btn w3-button w3-flat-carrot w3-hover-white w3-round">
-                        <img src="./img/whatsapp-icon.png" alt="" />
-                        Agendar avaliação
-                     </a>
-                     <a class="hero-btn w3-button w3-flat-carrot w3-hover-white w3-round">Conhecer serviços</a>
-                  </div>
+   <main>
+      <section class="hero-section w3-flex">
+         <div class="hero-left w3-flat-belize-hole w3-round-large">
+            <div class="hero-content">
+               <h3 class="w3-center">Transforme seu sorriso com segurança e tecnologia</h3>
 
-                  <div class="hero-check-list w3-flex">
-                     <p>✓ Atendimento Humanizado</p>
-                     <p>✓ Equipamentos Modernos</p>
-                     <p>✓ Avaliação Inicial</p>
-                  </div>
-               </div>
-            </div>
-
-            <div class="hero-right">
-               <img src="./img/hero-img-2.jpg" alt="" class="hero-img w3-round-large w3-card" />
-            </div>
-         </section>
-
-         <section class="info-strip w3-flat-belize-hole w3-section w3-round-large">
-            <div class="strip-items-container w3-flex">
-               <div class="strip-item w3-flex w3-center w3-large">
-                  <img src="./img/star-icon.svg" alt="" class="strip-item-icon" />
-                  <span>500+ pacientes atendidos</span>
-               </div>
-               <div class="strip-item w3-flex w3-center w3-large">
-                  <img src="./img/groups-icon.svg" alt="" class="strip-item-icon" />
-                  <span>Equipe especializada</span>
-               </div>
-               <div class="strip-item w3-flex w3-center w3-large">
-                  <img src="./img/support-icon.svg" alt="" class="strip-item-icon" />
-                  <span>Atendimento personalizado</span>
-               </div>
-               <div class="strip-item w3-flex w3-center w3-large">
-                  <img src="./img/equipment-icon.svg" alt="" class="strip-item-icon" />
-                  <span> Equipamentos modernos</span>
-               </div>
-            </div>
-         </section>
-
-         <section class="cards-section">
-            <div class="card w3-center w3-white w3-card w3-round-large">
-               <div class="card-header">
-                  <img src="./img/tooth-icon.png" alt="" class="card-icon w3-circle w3-flat-belize-hole" />
-                  <h3>Limpeza Dental</h3>
-               </div>
-
-               <h5>Prevenção e saúde bucal</h5>
-
-               <p class="w3-justify">
-                  Remova placas bacterianas, tártaros e manchas superficiais com um procedimento seguro e confortável,
-                  ajudando a manter seus dentes e gengivas saudáveis.
+               <p class="w3-center">
+                  Atendimento humanizado, equipamentos modernos e tratamentos personalizados para toda a família.
                </p>
-            </div>
-            <div class="card w3-center w3-white w3-card w3-round-large">
-               <div class="card-header">
-                  <img src="./img/toothbrush-icon.png" alt="" class="card-icon w3-circle w3-flat-carrot" />
-                  <h3>Clareamento Dental</h3>
+
+               <div class="hero-btn-container w3-flex">
+                  <a href="" class="hero-btn w3-button w3-flat-carrot w3-hover-white w3-round">
+                     <img src="./img/icons/whatsapp-icon.png" alt="Ícone de whatsapp" width="20px" />
+                     Agendar avaliação
+                  </a>
+                  <a href="#services" class="hero-btn w3-button w3-flat-carrot w3-hover-white w3-round">
+                     <img src="./img/icons/calendar-icon.png" alt="Ícone de calendário" width="16px" />
+                     Conhecer serviços
+                  </a>
                </div>
 
-               <h5>Um sorriso mais branco e radiante</h5>
-
-               <p class="w3-justify">
-                  Tratamentos modernos para clarear os dentes de forma eficaz, devolvendo brilho e confiança ao seu
-                  sorriso com acompanhamento profissional.
-               </p>
-            </div>
-            <div class="card w3-center w3-white w3-card w3-round-large">
-               <div class="card-header">
-                  <img src="./img/tooth-icon.png" alt="" class="card-icon w3-circle w3-flat-belize-hole" />
-                  <h3>Implantes Dentários</h3>
-               </div>
-
-               <h5>Recupere a função e a estética do sorriso</h5>
-
-               <p class="w3-justify">
-                  Solução segura para substituir dentes perdidos, proporcionando mais conforto, estabilidade e
-                  naturalidade ao mastigar e sorrir.
-               </p>
-            </div>
-            <div class="card w3-center w3-white w3-card w3-round-large">
-               <div class="card-header">
-                  <img src="./img/toothbrush-icon.png" alt="" class="card-icon w3-circle w3-flat-carrot" />
-                  <h3>Ortodontia</h3>
-               </div>
-
-               <h5>Alinhamento e harmonia para o seu sorriso</h5>
-
-               <p class="w3-justify">
-                  Correção do posicionamento dos dentes e da mordida por meio de tratamentos personalizados, promovendo
-                  estética e saúde bucal a longo prazo.
-               </p>
-            </div>
-         </section>
-
-         <section class="about-section w3-flex">
-            <div class="about-img-container">
-               <img src="./img/about-img.jpg" alt="" class="about-img w3-round-large w3-card" />
-            </div>
-
-            <div class="about-content-container w3-flat-belize-hole w3-round-large">
-               <div class="content">
-                  <div class="w3-center">
-                     <img src="./img/doctor-icon.png" alt="" class="about-icon w3-circle w3-flat-carrot" />
-                     <h3>Quem somos?</h3>
-                  </div>
-
-                  <div class="w3-justify">
-                     <p>
-                        Na Sorriso Perfeito Odontologia, acreditamos que um sorriso saudável é essencial para o
-                        bem-estar, a autoestima e a qualidade de vida. Por isso, oferecemos tratamentos odontológicos
-                        personalizados, realizados com atenção aos detalhes e foco nas necessidades de cada paciente.
-                     </p>
-
-                     <p>
-                        Contamos com uma equipe qualificada e utilizamos tecnologias modernas para proporcionar
-                        diagnósticos precisos, procedimentos seguros e resultados duradouros. Nosso compromisso é unir
-                        qualidade técnica, conforto e atendimento humanizado em cada etapa do seu tratamento.
-                     </p>
-
-                     <p>
-                        Seja para cuidados preventivos, procedimentos estéticos ou tratamentos mais complexos, estamos
-                        preparados para ajudá-lo a conquistar um sorriso mais saudável, bonito e confiante em um
-                        ambiente acolhedor e profissional.
-                     </p>
-                  </div>
+               <div class="hero-check-list w3-flex">
+                  <p>✓ Atendimento Humanizado</p>
+                  <p>✓ Equipamentos Modernos</p>
+                  <p>✓ Avaliação Inicial</p>
                </div>
             </div>
-         </section>
-
-         <section class="carousel-section w3-grid">
-            <div class="carousel-content-container w3-flat-carrot w3-round-large">
-               <div class="carousel-content w3-center">
-                  <img src="./img/tooth-icon.png" alt="" class="card-icon w3-circle w3-flat-belize-hole" />
-                  <h3 class="w3-center">Resultados que falam por si</h3>
-               </div>
-            </div>
-
-            <div class="carousel-container">
-               <img src="./img/smiling-woman.jpg" alt="" class="carousel-img w3-round-large w3-card" id="carousel-1" />
-               <img
-                  src="./img/smiling-person.jpg"
-                  alt=""
-                  class="carousel-img w3-round-large w3-card w3-hide"
-                  id="carousel-2"
-               />
-               <img
-                  src="./img/tooth-braces.jpg"
-                  alt=""
-                  class="carousel-img w3-round-large w3-card w3-hide"
-                  id="carousel-3"
-               />
-            </div>
-
-            <div class="carousel-preview w3-grid w3-round-large w3-flat-carrot">
-               <img
-                  src="./img/smiling-woman-thumb.webp"
-                  alt=""
-                  class="preview-img w3-white w3-round-large w3-hover-shadow w3-grayscale-off"
-                  onclick="displayCarouselImg(1)"
-                  id="preview-1"
-               />
-               <img
-                  src="./img/smiling-person-thumb.webp"
-                  alt=""
-                  class="preview-img w3-white w3-round-large w3-hover-shadow w3-grayscale-max w3-grayscale-off"
-                  onclick="displayCarouselImg(2)"
-                  id="preview-2"
-               />
-               <img
-                  src="./img/tooth-braces-thumb.webp"
-                  alt=""
-                  class="preview-img w3-white w3-round-large w3-hover-shadow w3-grayscale-max w3-grayscale-off"
-                  onclick="displayCarouselImg(3)"
-                  id="preview-3"
-               />
-            </div>
-         </section>
-
-         <section class="rating-section">
-            <div class="rating-title w3-center">
-               <img src="./img/diamond-icon.svg" alt="" class="rating-icon w3-flat-belize-hole w3-circle" />
-               <h3>Avaliações dos nossos clientes</h3>
-            </div>
-
-            <div class="rating-cards-container w3-grid">
-               <div class="rating-card w3-card w3-round-large">
-                  <div class="card-title">
-                     <img
-                        src="./img/review-icon.svg"
-                        alt="ícone de avaliação"
-                        class="rating-icon w3-flat-belize-hole w3-circle"
-                     />
-                     <h4>Mariana Oliveira</h4>
-                  </div>
-
-                  <p class="w3-italic">
-                     "Fui muito bem atendida desde a primeira consulta. A equipe é atenciosa, o ambiente é confortável e
-                     o resultado do meu clareamento ficou exatamente como eu esperava. Recomendo a todos."
-                  </p>
-               </div>
-
-               <div class="rating-card w3-card w3-round-large">
-                  <div class="card-title">
-                     <img
-                        src="./img/review-icon.svg"
-                        alt="ícone de avaliação"
-                        class="rating-icon w3-flat-belize-hole w3-circle"
-                     />
-                     <h4>Carlos Henrique</h4>
-                  </div>
-
-                  <p class="w3-italic">
-                     "Precisei realizar um implante dentário e todo o processo foi conduzido com muito profissionalismo.
-                     Recebi todas as orientações necessárias e fiquei extremamente satisfeito com o resultado."
-                  </p>
-               </div>
-
-               <div class="rating-card w3-card w3-round-large">
-                  <div class="card-title">
-                     <img
-                        src="./img/review-icon.svg"
-                        alt="ícone de avaliação"
-                        class="rating-icon w3-flat-belize-hole w3-circle"
-                     />
-                     <h4>Fernando Souza</h4>
-                  </div>
-
-                  <p class="w3-italic">
-                     "Há muito tempo queria iniciar um tratamento ortodôntico e encontrei na Sorriso Perfeito
-                     Odontologia a confiança que procurava. O atendimento é excelente e os profissionais demonstram
-                     grande conhecimento e dedicação."
-                  </p>
-               </div>
-            </div>
-         </section>
-
-         <section class="contact-section">
-            <div class="contact-header w3-flat-belize-hole w3-round-large w3-center">
-               <img src="./img/social-leaderboard-icon.svg" alt="" class="contact-icon w3-flat-carrot w3-circle" />
-               <h3>Pronto para conquistar o sorriso que você merece?</h3>
-            </div>
-
-            <div class="form-container">
-               <form action="" class="contact-form">
-                  <div class="w3-section">
-                     <label for="nome">Nome:</label>
-                     <input type="text" name="nome" id="nome" class="w3-input" required />
-                  </div>
-
-                  <div class="w3-section">
-                     <label for="telefone">Número:</label>
-                     <input
-                        type="tel"
-                        name="telefone"
-                        id="telefone"
-                        class="w3-input"
-                        pattern="[0-9]{2} [0-9]{5}-[0-9]{4}"
-                        required
-                     />
-                  </div>
-
-                  <div class="w3-section">
-                     <label for="email">Email:</label>
-                     <input type="email" name="email" id="email" class="w3-input" />
-                  </div>
-
-                  <div class="w3-section">
-                     <p>Procedimento desejado:</p>
-
-                     <input type="radio" name="procedimento" value="limpeza" id="limpeza" class="w3-radio" checked />
-                     <label for="limpeza">Limpeza</label>
-                     <br />
-                     <input type="radio" name="procedimento" value="clareamento" id="clareamento" class="w3-radio" />
-                     <label for="clareamento">Clareamento</label>
-                     <br />
-                     <input type="radio" name="procedimento" value="implante" id="implante" class="w3-radio" />
-                     <label for="implante">Implante dentário</label>
-                     <br />
-                     <input type="radio" name="procedimento" value="ortodontia" id="ortodontia" class="w3-radio" />
-                     <label for="ortodontia">Ortodontia</label>
-                  </div>
-
-                  <div class="btn-form">
-                     <button type="submit" class="w3-button w3-flat-belize-hole w3-round">Enviar</button>
-                  </div>
-               </form>
-            </div>
-         </section>
-
-         <section class="faq-section">
-            <div class="faq-header w3-flat-belize-hole w3-round-large w3-center">
-               <img src="./img/faq-icon.svg" alt="" class="faq-icon w3-flat-carrot w3-circle" />
-               <h3>Perguntas frequentes (FAQ)</h3>
-            </div>
-
-            <div class="faq-container w3-container">
-               <div>
-                  <div class="accordion-header w3-border-bottom">
-                     <p>O clareamento dói?</p>
-                     <button
-                        class="accordion-btn w3-flat-belize-hole w3-circle w3-center w3-hover-shadow"
-                        id="open-btn-1"
-                        onclick="openAccordion(1)"
-                     >
-                        <img src="./img/arrow-down-icon.svg" alt="" class="accordion-icon" />
-                     </button>
-
-                     <button
-                        class="accordion-btn w3-flat-carrot w3-circle w3-center w3-hide w3-hover-shadow"
-                        id="close-btn-1"
-                        onclick="closeAccordion(1)"
-                     >
-                        <img src="./img/arrow-up-icon.svg" alt="" class="accordion-icon" />
-                     </button>
-                  </div>
-
-                  <div class="w3-container w3-animate-opacity w3-hide" id="accordion-content-1">
-                     <p>
-                        O clareamento dental é um procedimento seguro e, na maioria dos casos, não causa dor. Alguns
-                        pacientes podem apresentar sensibilidade temporária durante ou após o tratamento, mas esse
-                        desconforto costuma ser leve e passageiro. Nossa equipe acompanha todo o processo para garantir
-                        o máximo de conforto.
-                     </p>
-                  </div>
-               </div>
-
-               <div>
-                  <div class="accordion-header w3-border-bottom">
-                     <p>Quanto tempo dura um implante?</p>
-                     <button
-                        class="accordion-btn w3-flat-belize-hole w3-circle w3-center w3-hover-shadow"
-                        id="open-btn-2"
-                        onclick="openAccordion(2)"
-                     >
-                        <img src="./img/arrow-down-icon.svg" alt="" class="accordion-icon" />
-                     </button>
-
-                     <button
-                        class="accordion-btn w3-flat-carrot w3-circle w3-center w3-hover-shadow w3-hide"
-                        id="close-btn-2"
-                        onclick="closeAccordion(2)"
-                     >
-                        <img src="./img/arrow-up-icon.svg" alt="" class="accordion-icon" />
-                     </button>
-                  </div>
-
-                  <div class="w3-container w3-animate-opacity w3-hide" id="accordion-content-2">
-                     <p>
-                        Com os cuidados adequados, um implante dentário pode durar muitos anos, podendo inclusive
-                        acompanhar o paciente por toda a vida. A durabilidade depende de fatores como higiene bucal,
-                        hábitos diários e acompanhamento odontológico regular.
-                     </p>
-                  </div>
-               </div>
-
-               <div>
-                  <div class="accordion-header w3-border-bottom">
-                     <p>Como funciona a avaliação?</p>
-                     <button
-                        class="accordion-btn w3-flat-belize-hole w3-circle w3-center w3-hover-shadow"
-                        id="open-btn-3"
-                        onclick="openAccordion(3)"
-                     >
-                        <img src="./img/arrow-down-icon.svg" alt="" class="accordion-icon" />
-                     </button>
-
-                     <button
-                        class="accordion-btn w3-flat-carrot w3-circle w3-center w3-hover-shadow w3-hide"
-                        id="close-btn-3"
-                        onclick="closeAccordion(3)"
-                     >
-                        <img src="./img/arrow-up-icon.svg" alt="" class="accordion-icon" />
-                     </button>
-                  </div>
-
-                  <div class="w3-container w3-animate-opacity w3-hide" id="accordion-content-3">
-                     <p>
-                        Na consulta de avaliação, o dentista realiza uma análise completa da saúde bucal, identifica as
-                        necessidades do paciente e esclarece dúvidas sobre possíveis tratamentos. Após essa etapa, é
-                        apresentado um plano personalizado com as melhores opções para cada caso.
-                     </p>
-                  </div>
-               </div>
-
-               <div>
-                  <div class="accordion-header w3-border-bottom">
-                     <p>Vocês atendem urgências?</p>
-                     <button
-                        class="accordion-btn w3-flat-belize-hole w3-circle w3-center w3-hover-shadow"
-                        id="open-btn-4"
-                        onclick="openAccordion(4)"
-                     >
-                        <img src="./img/arrow-down-icon.svg" alt="" class="accordion-icon" />
-                     </button>
-
-                     <button
-                        class="accordion-btn w3-flat-carrot w3-circle w3-center w3-hover-shadow w3-hide"
-                        id="close-btn-4"
-                        onclick="closeAccordion(4)"
-                     >
-                        <img src="./img/arrow-up-icon.svg" alt="" class="accordion-icon" />
-                     </button>
-                  </div>
-
-                  <div class="w3-container w3-animate-opacity w3-hide" id="accordion-content-4">
-                     <p>
-                        Sim. Estamos preparados para atender situações de urgência odontológica, como dores intensas,
-                        fraturas dentárias, queda de restaurações e outros problemas que exijam atenção imediata.
-                        Recomendamos entrar em contato o quanto antes para que possamos orientá-lo e realizar o
-                        atendimento necessário.
-                     </p>
-                  </div>
-               </div>
-            </div>
-         </section>
-      </main>
-
-      <footer class="w3-flat-belize-hole">
-         <div class="footer-header w3-flex">
-            <img src="./img/tooth-logo.png" alt="Logo da página" class="footer-logo" />
-            <h3>Sorriso Perfeito</h3>
          </div>
 
-         <div class="footer-content">
-            <ul class="footer-links-container">
-               <li>
-                  <a href="" class="footer-link">Início</a>
-               </li>
-               <li>
-                  <a href="" class="footer-link">Instagram</a>
-               </li>
-               <li>
-                  <a href="" class="footer-link">Contato</a>
-               </li>
-            </ul>
+         <div class="hero-right">
+            <img src="./img/hero-img.jpg" alt="imagem de introdução" class="hero-img w3-round-large w3-card" />
+         </div>
+      </section>
 
-            <div class="address">
-               <div class="address-content">
-                  <div class="address-header w3-flex">
-                     <img src="./img/map-icon.svg" alt="Ícone de mapa" />
-                     <span>Endereço</span>
-                  </div>
-                  <p class="w3-small">
-                     Brasília-DF, Praça dos Três Poderes
-                     <br />
-                     Horário de Funcionamento:
-                     <br />
-                     Segunda à Sexta - 8h às 16h
-                  </p>
-               </div>
-
-               <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15356.235618154977!2d-47.87218455727165!3d-15.800847757444085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3b477a98471b%3A0xb801228ac34322d!2sPra%C3%A7a%20dos%20Tr%C3%AAs%20Poderes%20-%20Plano%20Piloto%2C%20Bras%C3%ADlia%20-%20DF!5e0!3m2!1spt-BR!2sbr!4v1781032476220!5m2!1spt-BR!2sbr"
-                  style="border: 0"
-                  allowfullscreen=""
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                  class="address-map w3-round"
-               ></iframe>
+      <section class="info-strip w3-flat-belize-hole w3-section w3-round-large">
+         <div class="strip-items-container w3-flex">
+            <div class="strip-item w3-flex w3-center w3-large">
+               <img src="./img/icons/star-icon.svg" alt="ícone de estrela" class="strip-item-icon" />
+               <span>500+ pacientes atendidos</span>
+            </div>
+            <div class="strip-item w3-flex w3-center w3-large">
+               <img src="./img/icons/groups-icon.svg" alt="ícone de equipe" class="strip-item-icon" />
+               <span>Equipe especializada</span>
+            </div>
+            <div class="strip-item w3-flex w3-center w3-large">
+               <img src="./img/icons/support-icon.svg" alt="ícone de suporte" class="strip-item-icon" />
+               <span>Atendimento personalizado</span>
+            </div>
+            <div class="strip-item w3-flex w3-center w3-large">
+               <img src="./img/icons/equipment-icon.svg" alt="ícone de equipamento" class="strip-item-icon" />
+               <span> Equipamentos modernos</span>
             </div>
          </div>
-      </footer>
-   </body>
+      </section>
+
+      <section class="cards-section" id="services">
+         <div class="card w3-center w3-white w3-card w3-round-large">
+            <div class="card-header">
+               <img src="./img/icons/tooth-icon.png" alt="ícone de dente"
+                  class="card-icon w3-circle w3-flat-belize-hole" />
+               <h3>Limpeza Dental</h3>
+            </div>
+
+            <h5>Prevenção e saúde bucal</h5>
+
+            <p class="w3-justify">
+               Remova placas bacterianas, tártaros e manchas superficiais com um procedimento seguro e confortável,
+               ajudando a manter seus dentes e gengivas saudáveis.
+            </p>
+         </div>
+         <div class="card w3-center w3-white w3-card w3-round-large">
+            <div class="card-header">
+               <img src="./img/icons/toothbrush-icon.png" alt="ícone de escova"
+                  class="card-icon w3-circle w3-flat-carrot" />
+               <h3>Clareamento Dental</h3>
+            </div>
+
+            <h5>Um sorriso mais branco e radiante</h5>
+
+            <p class="w3-justify">
+               Tratamentos modernos para clarear os dentes de forma eficaz, devolvendo brilho e confiança ao seu
+               sorriso com acompanhamento profissional.
+            </p>
+         </div>
+         <div class="card w3-center w3-white w3-card w3-round-large">
+            <div class="card-header">
+               <img src="./img/icons/tooth-icon.png" alt="ícone de dente"
+                  class="card-icon w3-circle w3-flat-belize-hole" />
+               <h3>Implantes Dentários</h3>
+            </div>
+
+            <h5>Recupere a função e a estética do sorriso</h5>
+
+            <p class="w3-justify">
+               Solução segura para substituir dentes perdidos, proporcionando mais conforto, estabilidade e
+               naturalidade ao mastigar e sorrir.
+            </p>
+         </div>
+         <div class="card w3-center w3-white w3-card w3-round-large">
+            <div class="card-header">
+               <img src="./img/icons/toothbrush-icon.png" alt="ícone de escova"
+                  class="card-icon w3-circle w3-flat-carrot" />
+               <h3>Ortodontia</h3>
+            </div>
+
+            <h5>Alinhamento e harmonia para o seu sorriso</h5>
+
+            <p class="w3-justify">
+               Correção do posicionamento dos dentes e da mordida por meio de tratamentos personalizados, promovendo
+               estética e saúde bucal a longo prazo.
+            </p>
+         </div>
+      </section>
+
+      <section class="about-section w3-flex">
+         <div class="about-img-container">
+            <img src="./img/about-img.jpg" alt="ímagem de uma médica" class="about-img w3-round-large w3-card" />
+         </div>
+
+         <div class="about-content-container w3-flat-belize-hole w3-round-large">
+            <div class="content">
+               <div class="w3-center">
+                  <img src="./img/icons/doctor-icon.png" alt="ícone de doutor"
+                     class="about-icon w3-circle w3-flat-carrot" />
+                  <h3>Quem somos?</h3>
+               </div>
+
+               <div class="w3-justify">
+                  <p>
+                     Na Sorriso Perfeito Odontologia, acreditamos que um sorriso saudável é essencial para o
+                     bem-estar, a autoestima e a qualidade de vida. Por isso, oferecemos tratamentos odontológicos
+                     personalizados, realizados com atenção aos detalhes e foco nas necessidades de cada paciente.
+                  </p>
+
+                  <p>
+                     Contamos com uma equipe qualificada e utilizamos tecnologias modernas para proporcionar
+                     diagnósticos precisos, procedimentos seguros e resultados duradouros. Nosso compromisso é unir
+                     qualidade técnica, conforto e atendimento humanizado em cada etapa do seu tratamento.
+                  </p>
+
+                  <p>
+                     Seja para cuidados preventivos, procedimentos estéticos ou tratamentos mais complexos, estamos
+                     preparados para ajudá-lo a conquistar um sorriso mais saudável, bonito e confiante em um
+                     ambiente acolhedor e profissional.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="carousel-section w3-grid">
+         <div class="carousel-content-container w3-flat-carrot w3-round-large">
+            <div class="carousel-content w3-center">
+               <img src="./img/icons/tooth-icon.png" alt="ícone de dente"
+                  class="card-icon w3-circle w3-flat-belize-hole" />
+               <h3 class="w3-center">Resultados que falam por si</h3>
+            </div>
+         </div>
+
+         <div class="carousel-container">
+            <img src="./img/smiling-woman.jpg" alt="mulher sorrindo" class="carousel-img w3-round-large w3-card"
+               id="carousel-1" />
+            <img src="./img/smiling-person.jpg" alt="homem sorrindo" class="carousel-img w3-round-large w3-card w3-hide"
+               id="carousel-2" />
+            <img src="./img/tooth-braces.jpg" alt="homem com aparelho sorrindo"
+               class="carousel-img w3-round-large w3-card w3-hide" id="carousel-3" />
+         </div>
+
+         <div class="carousel-preview w3-grid w3-round-large w3-flat-carrot">
+            <img src="./img/smiling-woman-thumb.webp" alt="mulher sorrindo"
+               class="preview-img w3-white w3-round-large w3-hover-shadow w3-grayscale-off"
+               onclick="displayCarouselImg(1)" id="preview-1" />
+            <img src="./img/smiling-person-thumb.webp" alt="homem sorrindo"
+               class="preview-img w3-white w3-round-large w3-hover-shadow w3-grayscale-max w3-grayscale-off"
+               onclick="displayCarouselImg(2)" id="preview-2" />
+            <img src="./img/tooth-braces-thumb.webp" alt="homem com aparelho sorrindo"
+               class="preview-img w3-white w3-round-large w3-hover-shadow w3-grayscale-max w3-grayscale-off"
+               onclick="displayCarouselImg(3)" id="preview-3" />
+         </div>
+      </section>
+
+      <section class="rating-section" id="rating">
+         <div class="rating-title w3-center">
+            <img src="./img/icons/diamond-icon.svg" alt="ícone de diamante"
+               class="rating-icon w3-flat-belize-hole w3-circle" />
+            <h3>Avaliações dos nossos clientes</h3>
+         </div>
+
+         <div class="rating-cards-container w3-grid">
+            <div class="rating-card w3-card w3-round-large">
+               <div class="card-title">
+                  <img src="./img/icons/review-icon.svg" alt="ícone de avaliação"
+                     class="rating-icon w3-flat-belize-hole w3-circle" />
+                  <h4>Mariana Oliveira</h4>
+               </div>
+
+               <p class="w3-italic">
+                  "Fui muito bem atendida desde a primeira consulta. A equipe é atenciosa, o ambiente é confortável e
+                  o resultado do meu clareamento ficou exatamente como eu esperava. Recomendo a todos."
+               </p>
+            </div>
+
+            <div class="rating-card w3-card w3-round-large">
+               <div class="card-title">
+                  <img src="./img/icons/review-icon.svg" alt="ícone de avaliação"
+                     class="rating-icon w3-flat-belize-hole w3-circle" />
+                  <h4>Carlos Henrique</h4>
+               </div>
+
+               <p class="w3-italic">
+                  "Precisei realizar um implante dentário e todo o processo foi conduzido com muito profissionalismo.
+                  Recebi todas as orientações necessárias e fiquei extremamente satisfeito com o resultado."
+               </p>
+            </div>
+
+            <div class="rating-card w3-card w3-round-large">
+               <div class="card-title">
+                  <img src="./img/icons/review-icon.svg" alt="ícone de avaliação"
+                     class="rating-icon w3-flat-belize-hole w3-circle" />
+                  <h4>Fernando Souza</h4>
+               </div>
+
+               <p class="w3-italic">
+                  "Há muito tempo queria iniciar um tratamento ortodôntico e encontrei na Sorriso Perfeito
+                  Odontologia a confiança que procurava. O atendimento é excelente e os profissionais demonstram
+                  grande conhecimento e dedicação."
+               </p>
+            </div>
+         </div>
+      </section>
+
+      <section class="contact-section" id="contact-section">
+         <div class="contact-header w3-flat-belize-hole w3-round-large w3-center">
+            <img src="./img/icons/social-leaderboard-icon.svg" alt="ícone de medalhas"
+               class="contact-icon w3-flat-carrot w3-circle" />
+            <h3>Pronto para conquistar o sorriso que você merece?</h3>
+         </div>
+
+         <div class="form-container">
+            <form action="" class="contact-form">
+               <div class="w3-section">
+                  <label for="nome">Nome:</label>
+                  <input type="text" name="nome" id="nome" class="w3-input" placeholder="Nome completo" required />
+               </div>
+
+               <div class="w3-section">
+                  <label for="telefone">Número:</label>
+                  <input type="tel" name="telefone" id="telefone" class="w3-input" placeholder="11 91234-5678"
+                     pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" required />
+               </div>
+
+               <div class="w3-section">
+                  <label for="email">Email:</label>
+                  <input type="email" name="email" id="email" placeholder="teste@gmail.com" class="w3-input" />
+               </div>
+
+               <div class="w3-section">
+                  <label for="mensagem">Mensagem (opcional):</label>
+                  <br>
+                  <textarea name="mensagem" id="mensagem" class="form-message"
+                     placeholder="Escreva sua mensagem"></textarea>
+               </div>
+
+               <div class="w3-section">
+                  <p>Procedimento desejado:</p>
+
+                  <input type="radio" name="procedimento" value="limpeza" id="limpeza" class="w3-radio" checked />
+                  <label for="limpeza">Limpeza</label>
+                  <br />
+                  <input type="radio" name="procedimento" value="clareamento" id="clareamento" class="w3-radio" />
+                  <label for="clareamento">Clareamento</label>
+                  <br />
+                  <input type="radio" name="procedimento" value="implante" id="implante" class="w3-radio" />
+                  <label for="implante">Implante dentário</label>
+                  <br />
+                  <input type="radio" name="procedimento" value="ortodontia" id="ortodontia" class="w3-radio" />
+                  <label for="ortodontia">Ortodontia</label>
+               </div>
+
+               <div class="btn-form">
+                  <button type="submit" class="w3-button w3-flat-belize-hole w3-round">Enviar</button>
+               </div>
+            </form>
+         </div>
+      </section>
+
+      <section class="faq-section">
+         <div class="faq-header w3-flat-belize-hole w3-round-large w3-center">
+            <img src="./img/icons/faq-icon.svg" alt="ícone de mensagem" class="faq-icon w3-flat-carrot w3-circle" />
+            <h3>Perguntas frequentes (FAQ)</h3>
+         </div>
+
+         <div class="faq-container w3-container">
+            <div>
+               <div class="accordion-header w3-border-bottom">
+                  <p>O clareamento dói?</p>
+                  <button class="accordion-btn w3-flat-belize-hole w3-circle w3-center w3-hover-shadow" id="open-btn-1"
+                     onclick="openAccordion(1)">
+                     <img src="./img/icons/arrow-down-icon.svg" alt="seta para baixo" class="accordion-icon" />
+                  </button>
+
+                  <button class="accordion-btn w3-flat-carrot w3-circle w3-center w3-hide w3-hover-shadow"
+                     id="close-btn-1" onclick="closeAccordion(1)">
+                     <img src="./img/icons/arrow-up-icon.svg" alt="seta para cima" class="accordion-icon" />
+                  </button>
+               </div>
+
+               <div class="w3-container w3-animate-opacity w3-hide" id="accordion-content-1">
+                  <p>
+                     O clareamento dental é um procedimento seguro e, na maioria dos casos, não causa dor. Alguns
+                     pacientes podem apresentar sensibilidade temporária durante ou após o tratamento, mas esse
+                     desconforto costuma ser leve e passageiro. Nossa equipe acompanha todo o processo para garantir
+                     o máximo de conforto.
+                  </p>
+               </div>
+            </div>
+
+            <div>
+               <div class="accordion-header w3-border-bottom">
+                  <p>Quanto tempo dura um implante?</p>
+                  <button class="accordion-btn w3-flat-belize-hole w3-circle w3-center w3-hover-shadow" id="open-btn-2"
+                     onclick="openAccordion(2)">
+                     <img src="./img/icons/arrow-down-icon.svg" alt="seta para baixo" class="accordion-icon" />
+                  </button>
+
+                  <button class="accordion-btn w3-flat-carrot w3-circle w3-center w3-hover-shadow w3-hide"
+                     id="close-btn-2" onclick="closeAccordion(2)">
+                     <img src="./img/icons/arrow-up-icon.svg" alt="seta para cima" class="accordion-icon" />
+                  </button>
+               </div>
+
+               <div class="w3-container w3-animate-opacity w3-hide" id="accordion-content-2">
+                  <p>
+                     Com os cuidados adequados, um implante dentário pode durar muitos anos, podendo inclusive
+                     acompanhar o paciente por toda a vida. A durabilidade depende de fatores como higiene bucal,
+                     hábitos diários e acompanhamento odontológico regular.
+                  </p>
+               </div>
+            </div>
+
+            <div>
+               <div class="accordion-header w3-border-bottom">
+                  <p>Como funciona a avaliação?</p>
+                  <button class="accordion-btn w3-flat-belize-hole w3-circle w3-center w3-hover-shadow" id="open-btn-3"
+                     onclick="openAccordion(3)">
+                     <img src="./img/icons/arrow-down-icon.svg" alt="seta para baixo" class="accordion-icon" />
+                  </button>
+
+                  <button class="accordion-btn w3-flat-carrot w3-circle w3-center w3-hover-shadow w3-hide"
+                     id="close-btn-3" onclick="closeAccordion(3)">
+                     <img src="./img/icons/arrow-up-icon.svg" alt="seta para cima" class="accordion-icon" />
+                  </button>
+               </div>
+
+               <div class="w3-container w3-animate-opacity w3-hide" id="accordion-content-3">
+                  <p>
+                     Na consulta de avaliação, o dentista realiza uma análise completa da saúde bucal, identifica as
+                     necessidades do paciente e esclarece dúvidas sobre possíveis tratamentos. Após essa etapa, é
+                     apresentado um plano personalizado com as melhores opções para cada caso.
+                  </p>
+               </div>
+            </div>
+
+            <div>
+               <div class="accordion-header w3-border-bottom">
+                  <p>Vocês atendem urgências?</p>
+                  <button class="accordion-btn w3-flat-belize-hole w3-circle w3-center w3-hover-shadow" id="open-btn-4"
+                     onclick="openAccordion(4)">
+                     <img src="./img/icons/arrow-down-icon.svg" alt="seta para baixo" class="accordion-icon" />
+                  </button>
+
+                  <button class="accordion-btn w3-flat-carrot w3-circle w3-center w3-hover-shadow w3-hide"
+                     id="close-btn-4" onclick="closeAccordion(4)">
+                     <img src="./img/icons/arrow-up-icon.svg" alt="seta para cima" class="accordion-icon" />
+                  </button>
+               </div>
+
+               <div class="w3-container w3-animate-opacity w3-hide" id="accordion-content-4">
+                  <p>
+                     Sim. Estamos preparados para atender situações de urgência odontológica, como dores intensas,
+                     fraturas dentárias, queda de restaurações e outros problemas que exijam atenção imediata.
+                     Recomendamos entrar em contato o quanto antes para que possamos orientá-lo e realizar o
+                     atendimento necessário.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+   </main>
+
+   <footer class="w3-flat-belize-hole">
+      <div class="footer-header w3-flex">
+         <img src="./img/tooth-logo.png" alt="Logo da página" class="footer-logo" />
+         <h3>Sorriso Perfeito</h3>
+      </div>
+
+      <div class="footer-content">
+         <ul class="footer-links-container">
+            <li>
+               <a href="" class="footer-link">Início</a>
+            </li>
+            <li>
+               <a href="" class="footer-link">Instagram</a>
+            </li>
+            <li>
+               <a href="#contact-section" class="footer-link">Contato</a>
+            </li>
+         </ul>
+
+         <div class="address">
+            <div class="address-content">
+               <div class="address-header w3-flex">
+                  <img src="./img/icons/map-icon.svg" alt="Ícone de mapa" />
+                  <span>Endereço</span>
+               </div>
+               <p class="w3-small">
+                  Brasília-DF, Praça dos Três Poderes
+                  <br />
+                  Horário de Funcionamento:
+                  <br />
+                  Segunda à Sexta - 8h às 16h
+               </p>
+            </div>
+
+            <iframe
+               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15356.235618154977!2d-47.87218455727165!3d-15.800847757444085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3b477a98471b%3A0xb801228ac34322d!2sPra%C3%A7a%20dos%20Tr%C3%AAs%20Poderes%20-%20Plano%20Piloto%2C%20Bras%C3%ADlia%20-%20DF!5e0!3m2!1spt-BR!2sbr!4v1781032476220!5m2!1spt-BR!2sbr"
+               style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+               class="address-map w3-round"></iframe>
+         </div>
+      </div>
+   </footer>
+</body>
+
 </html>
