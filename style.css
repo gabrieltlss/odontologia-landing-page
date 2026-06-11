@@ -116,6 +116,7 @@ main {
 /* Cards */
 
 .cards-section {
+   scroll-margin-top: 96px;
    margin: 32px 0;
    display: grid;
    gap: 16px;
@@ -193,6 +194,7 @@ main {
 
 /* Rating section */
 .rating-section {
+   scroll-margin-top: 96px;
    margin: 32px 0;
 }
 
@@ -206,6 +208,10 @@ main {
 }
 
 /* Contact */
+.contact-section {
+   scroll-margin-top: 96px;
+}
+
 .contact-header {
    padding: 16px;
 }
