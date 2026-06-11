@@ -2,6 +2,16 @@
    scroll-behavior: smooth;
 }
 
+.shadow-light {
+   box-shadow: 0 0 3px rgb(0, 0, 0, 0.3);
+}
+
+.shadow-light:hover {
+   transition: .2s;
+   box-shadow: 0 0 3px rgb(0, 0, 0, 0.5);
+}
+
+
 header {
    top: 0;
    z-index: 1;
@@ -117,7 +127,7 @@ main {
 
 .cards-section {
    scroll-margin-top: 96px;
-   margin: 32px 0;
+   margin: 64px 0;
    display: grid;
    gap: 16px;
 }
@@ -144,7 +154,7 @@ main {
 }
 
 .about-section {
-   margin: 32px 0;
+   margin: 64px 0;
    flex-direction: column;
    gap: 16px;
 }
@@ -158,6 +168,7 @@ main {
 
 /* Carousel container */
 .carousel-section {
+   margin: 64px 0;
    grid-template-rows: 200px 250px auto;
    gap: 16px;
 }
@@ -195,7 +206,7 @@ main {
 /* Rating section */
 .rating-section {
    scroll-margin-top: 96px;
-   margin: 32px 0;
+   margin: 64px 0;
 }
 
 .rating-cards-container {
@@ -210,6 +221,7 @@ main {
 /* Contact */
 .contact-section {
    scroll-margin-top: 96px;
+   margin: 64px 0;
 }
 
 .contact-header {
@@ -238,6 +250,10 @@ form {
 }
 
 /* FAQ */
+.faq-section {
+   margin: 64px 0;
+}
+
 .faq-header {
    padding: 16px;
 }
